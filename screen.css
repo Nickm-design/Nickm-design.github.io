@@ -19,10 +19,15 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; } 
+  line-height: 1;
+  color: #348781} 
 h1 {
     font-size: 8em;
-    color: #ff69b4;
+    color: #87353A;
+  }
+  h2 {
+    font-size: 2em;
+    color: #87353A;
   }
 ol, ul {
   list-style: none; }

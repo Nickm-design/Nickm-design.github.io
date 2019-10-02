@@ -61,6 +61,14 @@ caption, th, td {
   font-weight: normal;
   vertical-align: middle; }
 
+  div#middle {
+    border: 1px solid red
+  }
+
+  div#bottom {
+    border: 1px solid red
+  }
+  
 q, blockquote {
   quotes: none; }
   q:before, q:after, blockquote:before, blockquote:after {

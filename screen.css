@@ -25,22 +25,31 @@ title {
 }
 body {
   line-height: 1;
-  background-color: #348781; 
+  background-color: white; 
   font-family: 'Courier New', Courier, monospace;
 }  
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 8em;
-    color: #87353A;
+    font-size: 6em;
+    color: #D3AC2B;
   } 
   p {
     font-size: 2em; 
     font-family: 'Courier New', Courier, monospace;
+    color:  #CBD0D8;
   } 
+  p#GitHub {
+    font-size: 1em;
+    color:  #CBD0D8;
+  }
+  p#StackOverflow{
+    font-size: 1em;
+    color: #CBD0D8;
+  }
   h2 {
     font-size: 2em;
-    color: #87353A;
+    color: #d3ac2b;
     font-family: 'Courier New', Courier, monospace;
   }
   h3 {
@@ -60,13 +69,64 @@ caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
+div#header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+}
+.center {
+  margin: atuo;
+  width: 25%;
 
+}
+
+div#sides {
+  color: #333D51;
+
+}
+.verticalStripLeft {
+  position: fixed;
+  top: 65px;
+  left: 0;
+  width: 100px;
+  background-color: #333D51;
+  height: 100%;
+}
+.verticalStripRight {
+  position: fixed;
+  top: 65px;
+  right: 0;
+  width: 100px;
+  background-color: #333D51;
+  height: 100%;
+}
+
+  div#side-left {
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0PX;
+  }
+div#top {
+display: flex;
+}
+div#left{
+  text-align:left;
+  margin-left: 400px;
+  margin-right: 100px;
+  display: inline-block;
+}
+div#right{
+  margin-left: 0px;
+  
+}
   div#middle {
-    border: 1px solid red
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   div#bottom {
-    border: 1px solid red
+    margin-left: 100px;
+    margin-right: 100px;
   }
   
 q, blockquote {

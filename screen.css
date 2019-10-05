@@ -70,6 +70,8 @@ caption, th, td {
   font-weight: normal;
   vertical-align: middle; }
 div#header {
+  position: absolute;
+  z-index: 1;
   height: 65px;
   width: 100%;
   background-color: black;
@@ -85,16 +87,20 @@ div#sides {
 
 }
 .verticalStripLeft {
+  position: relative;
+  z-index: 0;
   position: fixed;
-  top: 65px;
+  top: 0px;
   left: 0;
   width: 100px;
   background-color: #333D51;
   height: 100%;
 }
 .verticalStripRight {
+  position: relative;
+  z-index: 0;
   position: fixed;
-  top: 65px;
+  top: 0px;
   right: 0;
   width: 100px;
   background-color: #333D51;
@@ -110,12 +116,14 @@ div#top {
 display: flex;
 }
 div#left{
+  margin-top: 65px;
   text-align:left;
   margin-left: 400px;
   margin-right: 100px;
   display: inline-block;
 }
 div#right{
+  margin-top: 65px;
   margin-left: 0px;
   
 }

@@ -141,7 +141,9 @@ div#right{
     background-color: #CBD0D8;
     height: 290px;
   }
-  
+  #footer {
+    margin-left: 100px;
+  }
 q, blockquote {
   quotes: none; }
   q:before, q:after, blockquote:before, blockquote:after {

@@ -37,15 +37,15 @@ h1 {
   p {
     font-size: 2em; 
     font-family: 'Courier New', Courier, monospace;
-    color:  #CBD0D8;
   } 
   p#GitHub {
-    font-size: 1em;
-    color:  #CBD0D8;
+    font-size: 1.5em;
   }
   p#StackOverflow{
-    font-size: 1em;
-    color: #CBD0D8;
+    font-size: 1.5em;
+  }
+  h1.display-3 {
+    font-family: 'Courier New', Courier, monospace;
   }
   h2 {
     font-size: 2em;
@@ -60,11 +60,7 @@ h1 {
 
 ol, ul {
   list-style-type: none; 
-  margin: 0px;
-  height: 65px;
-  background-color: black;
-  color: white;
-  }
+}
 
   li {
     display: inline;
@@ -90,65 +86,6 @@ div#header {
 
 }
 
-div#sides {
-  color: #333D51;
-
-}
-.verticalStripLeft {
-  position: relative;
-  z-index: 0;
-  position: fixed;
-  top: 0px;
-  left: 0;
-  width: 100px;
-  background-color: #333D51;
-  height: 100%;
-}
-.verticalStripRight {
-  position: relative;
-  z-index: 0;
-  position: fixed;
-  top: 0px;
-  right: 0;
-  width: 100px;
-  background-color: #333D51;
-  height: 100%;
-}
-
-  div#side-left {
-    text-align: left;
-    margin-left: 0px;
-    margin-right: 0PX;
-  }
-div#top {
-display: flex;
-}
-div#left{
-  margin-top: 65px;
-  text-align:left;
-  margin-left: 400px;
-  margin-right: 100px;
-  display: inline-block;
-}
-div#right{
-  margin-top: 65px;
-  margin-left: 0px;
-  
-}
-  div#middle {
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 90px;
-    text-align: center;
-    background-color: #CBD0D8;
-  }
-
-  div#bottom {
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #CBD0D8;
-    height: 290px;
-  }
   #footer {
     margin-left: 100px;
   }
@@ -166,7 +103,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   font-family: sans-serif;
-  color: #2a2a2a; }
+}
 
 a {
   color: Black; }
@@ -174,4 +111,8 @@ a {
     color: Red; }
 
 #main {
-  padding: 50px; }
+  padding: 50px; 
+}
+#profile {
+  text-align: right;
+}
